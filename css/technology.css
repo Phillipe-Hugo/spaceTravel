@@ -1,0 +1,133 @@
+:root {
+  --white: #fff;
+  --grey: grey;
+}
+body {
+  background-image: url(../starter-code/assets/technology/background-technology-desktop.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 1440px;
+  height: 900px;
+}
+header hr {
+  width: 80%;
+  opacity: 25%;
+  margin: 5% 0 0 -2%;
+  color: var(--white);
+  position: relative;
+}
+nav {
+  width: 100vw;
+  height: 16vh;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+main {
+  display: flex;
+  flex-direction: row;
+}
+.logo {
+  width: 40vw;
+  height: 15vh;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+}
+.logo img {
+  margin: 5% 5% 0 5%;
+}
+.menu {
+  fill: transparent var(--white) 4%;
+  height: 15vh;
+  width: 60vw;
+  backdrop-filter: blur(30px);
+  filter: saturation(25%);
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+}
+.menu a {
+  margin: 0 5%;
+  color: var(--white);
+  text-decoration: none;
+  font-size: 20px;
+  transition: 0.5s;
+}
+.menu a:hover {
+  border-bottom: 3px solid var(--white);
+}
+.top {
+  display: block;
+  height: 15vh;
+  width: 60vw;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  margin-left: 120px;
+}
+.left {
+  display: flex;
+  flex-direction: row;
+  height: 60vh;
+  width: 40vw;
+  margin-left: 120px;
+}
+.left p {
+  margin: 0;
+}
+.left h2 {
+  margin: 20px 0;
+}
+.left a {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  height: 80px;
+  width: 80px;
+  background-color: transparent;
+  border-radius: 50%;
+  text-decoration: none;
+  color: var(--white);
+  border: 1px solid var(--grey);
+  margin: 0 60px 50px 0;
+}
+.right {
+  height: 60vh;
+  width: 40vw;
+}
+.right img{
+    margin-top: 50px;
+}
+.numbertechnology {
+  color: rgb(179, 168, 168);
+  margin-right: 7px;
+}
+span {
+  color: var(--white);
+}
+#leftdata p,h2{
+    color: var(--white);
+}
+#leftdata h2{
+    font-size: 46px;
+    text-transform: uppercase;
+}
+#leftdata p{
+    font-size: 18px;
+    line-height: 36px;
+}
+.top p,span{
+    font-size: 30px;
+}
+#lefta a{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#lefta .active{
+    background-color: var(--white);
+    color: black;
+}
