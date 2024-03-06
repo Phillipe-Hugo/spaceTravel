@@ -1,0 +1,52 @@
+@media only screen and (max-width: 600px) {
+    /* Regras CSS específicas para dispositivos móveis */
+    body {
+      font-size: 16px;
+      width: 100%;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+
+    nav {
+        display: flex;
+        width: 100%;
+        padding: 20px;
+        box-sizing: border-box;
+
+    }
+    header .logo img {
+      /* Reduzir o tamanho do logotipo para dispositivos móveis */
+      width: 100%;
+      height: auto;
+      margin-top: 5px;
+      margin-bottom: 5px;
+
+    }
+    main  {
+      /* Colocar os dois blocos lado a lado em dispositivos móveis */
+      display: flex;
+      flex-wrap: wrap;
+      left, right {
+        width: 100%;
+      }
+
+    
+      .left span {
+        text-align: center;
+        font-weight: bold;
+        margin-top: 200px;
+        
+      }
+      .right {
+        order: 2;
+      }
+
+    menu {
+        text-align: center;
+        margin-top: 20px;
+    }  
+    }
+
+    
+    /* Mais regras CSS específicas para dispositivos móveis */
+  }
